@@ -44,7 +44,7 @@
                                     ?>
                                       <tr>
                                         <td><?= $no++ ?></td>
-                                        <td><?= $user['nama_buku']; ?></td>
+                                        <td><?= substr($user['nama_buku'],0,21)."..."; ?></td>
                                         <td><?= $user['nama']; ?></td>
                                         
                                         <td><?= $user['no_hp']; ?></td>
